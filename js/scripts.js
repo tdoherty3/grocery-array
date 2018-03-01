@@ -13,6 +13,8 @@ $(document).ready(function() {
       return array.toUpperCase();
     });
 
+    newArray.sort();
+
     $(".return").text(newArray);
 
   });
